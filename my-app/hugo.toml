@@ -1,6 +1,6 @@
 baseURL = 'http://localhost:1313/hugo-compose/'
 languageCode = 'ja'
-title = 'normalsalt Diary'
+title = 'My Diary'
 theme = 'hermit-v2'
 
 # enableGitInfo = true
@@ -58,7 +58,7 @@ expiryDate = ["expiryDate"]
 
   justifyContent = false
 
-  relatedPosts = true
+  # relatedPosts = true
   code_copy_button = true
 
   homeSubtitlePrinter = true
