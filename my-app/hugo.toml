@@ -1,0 +1,101 @@
+baseURL = 'http://localhost:1313/hugo-compose/'
+languageCode = 'ja'
+title = 'normalsalt Diary'
+theme = 'hermit-v2'
+
+# enableGitInfo = true
+
+# pygmentsCodefences  = true
+# pygmentsUseClasses  = true
+hasCJKLanguage = true
+
+rssLimit = 10
+
+copyright = "normalsalt"
+enableEmoji = true
+
+# disqusShortname = "CHANGE ME"
+
+[frontmatter]
+
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
+[params.author]
+
+  name = "normalsalt"
+  about = "about"
+
+[blackfriday]
+
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+
+  tag = "tags"
+  # Categories are disabled by default.
+  # category = "categories"
+
+[params]
+
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # description = "CHANGE ME SITE DESCRIPTION"
+  # images = [""]
+  themeColor = "#494f5c"
+
+  # homeSubtitle = "CHANGE ME HOME SUBTITLE"
+  footerCopyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # bgImg = ""
+  # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+
+  justifyContent = false
+
+  relatedPosts = true
+  code_copy_button = true
+
+  homeSubtitlePrinter = true
+  scrollToTop = true 
+  global_mathjax = false
+  readTime = true
+  readTimeSeparator = "\u2026 \u23F2 Reading Time:"
+  # legacyLayout = false
+  # shareSocial = true
+  # googleTagManager = "GTM-XXXXXXXX"
+  # tagSymbol = "#"
+  # categorySymbol = "⊲"
+  # pinned = "Pinned Posts"
+  # pinnedSVGname = "pin"
+  # descriptionInPosts= true
+  # initialPublish = "Initally Posted on: "
+  
+  [[params.socialLinks]]
+    name = "mastodon"
+    url = "https://mastodon.social/@normalsalt"
+
+  [[params.socialLinks]]
+    name = "x"
+    url = "https://twitter.com/normalsalt"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/normalsalt/hugo-compose"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20

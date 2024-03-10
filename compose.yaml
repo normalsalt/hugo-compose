@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    volumes:
+      - ./my-app:/my-app
+    ports:
+      - "1313:1313"
