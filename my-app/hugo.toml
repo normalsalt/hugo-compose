@@ -45,13 +45,13 @@ expiryDate = ["expiryDate"]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformNumTime = "2006-01-02 15:04 +0900"
 
   # description = "CHANGE ME SITE DESCRIPTION"
   # images = [""]
   themeColor = "#494f5c"
 
-  # homeSubtitle = "CHANGE ME HOME SUBTITLE"
+  homeSubtitle = "Diary of a TaskChute beginner"
   footerCopyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""
   # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
@@ -71,7 +71,7 @@ expiryDate = ["expiryDate"]
   # googleTagManager = "GTM-XXXXXXXX"
   # tagSymbol = "#"
   # categorySymbol = "⊲"
-  # pinned = "Pinned Posts"
+  pinned = "Pinned Posts"
   # pinnedSVGname = "pin"
   # descriptionInPosts= true
   # initialPublish = "Initally Posted on: "
@@ -95,7 +95,7 @@ expiryDate = ["expiryDate"]
     url = "posts/"
     weight = 10
 
-  [[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 20
+  # [[menu.main]]
+    # name = "About"
+    # url = "about/"
+    # weight = 20

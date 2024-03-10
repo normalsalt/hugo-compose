@@ -1,12 +1,11 @@
 ---
 title: "Configuration"
-date: 2024-03-10T04:40:10Z
-draft: false
+date: 2024-02-24T00:00:00Z
+draft: true
 toc: true
 images:
 tags: 
   - untagged
-scrolltotop: true
 ---
 
 ## Configuation in `hugo.toml`
